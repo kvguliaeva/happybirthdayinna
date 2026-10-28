@@ -1,0 +1,18 @@
+/* Original template layout and typography are kept in style.min.css. */
+.sm-section-type-2 { --bg-color: #efe1db; }
+.inna-copy p { margin: 0; }
+.inna-copy p + p { margin-top: 1em; }
+.sm-dress-code .inna-dress-text { margin-top: 20px; }
+.sm-footer__title { text-align: center; }
+.sm-main__title:focus { outline: none; }
+.sm-datetime .inna-greeting-title {
+    max-width: none;
+    white-space: nowrap;
+}
+.sm-location .inna-map-button { background-color: #efe1db; }
+.sm-location .inna-map-button:hover { background-color: #e4d2c9; }
+@media (max-width: 500px) {
+    .sm-datetime .inna-greeting-title {
+        font-size: clamp(24px, 7.5vw, 32px);
+    }
+}
